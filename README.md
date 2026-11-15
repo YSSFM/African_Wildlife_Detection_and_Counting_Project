@@ -1,1 +1,1 @@
-# African_Wildlife_Detection_and_Counting_Project
+#  Détection et comptage de la faune africaine 
