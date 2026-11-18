@@ -1,1 +1,13 @@
+# Projet CNN — Configuration commune 
+seed: 42
+resolution: 512
+epochs: 15
+modele: yolov8n.pt
 
+# Modèle A —  (valeurs par défaut YOLOv8)
+scale_A: 0.5
+translate_A: 0.1
+
+# Modèle B —  (augmentations modifiées)
+scale_B: 0.2
+translate_B: 0.05
