@@ -1,0 +1,7 @@
+{
+  "rule": "median of val bbox area_norm (w*h, YOLO normalized)",
+  "threshold_area_norm": 0.227134153425,
+  "threshold_q25_sensitivity": 0.077251516067,
+  "small_if": "area_norm < threshold",
+  "seed": 42
+}
