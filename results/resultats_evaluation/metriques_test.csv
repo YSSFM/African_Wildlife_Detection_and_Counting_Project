@@ -1,0 +1,5 @@
+Modele,Protocole,mAP50,mAP50_95,Precision,Rappel
+A,"seuils figés (conf=0.25, iou=0.7)",0.9345,0.7977,0.9573,0.9093
+A,"standard Ultralytics (conf=0.001, iou=0.7)",0.9669,0.8195,0.9573,0.9093
+B,"seuils figés (conf=0.25, iou=0.7)",0.9099,0.7685,0.947,0.8595
+B,"standard Ultralytics (conf=0.001, iou=0.7)",0.9538,0.7986,0.947,0.8595

@@ -1,0 +1,3 @@
+Modele,conf,IoU_NMS,mAP50 (std),mAP50-95 (std),Précision (test),Rappel (test),Rappel petits (val),Rappel grands (val),MAE comptage test (image×classe),MAE comptage test (total/image),Biais comptage (pred−réel),MAE 8 scènes
+A,0.25,0.7,0.9669,0.8195,0.9573,0.9093,0.8677,0.9368,0.0738,0.2599,0.1806,0.306
+B,0.25,0.7,0.9538,0.7986,0.947,0.8595,0.9206,0.9316,0.087,0.2775,0.1366,0.222

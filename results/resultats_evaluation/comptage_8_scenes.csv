@@ -1,0 +1,13 @@
+image,cls,reel,pred_A,pred_B,err_A,err_B,|err_A|,|err_B|,categorie
+2 (130).jpg,elephant,10,8,11,-2,1,2,1,éloignés
+2 (290).jpg,elephant,1,2,1,1,0,1,0,multi-espèces
+2 (290).jpg,zebra,2,3,4,1,2,1,2,multi-espèces
+3 (144).jpg,rhino,2,2,2,0,0,0,0,partiellement cachés
+3 (209).jpg,elephant,0,0,1,0,1,0,1,complément (rhinocéros)
+3 (209).jpg,rhino,3,3,2,0,-1,0,1,complément (rhinocéros)
+4 (131).jpg,zebra,2,3,2,1,0,1,0,éloignés
+4 (294).jpg,buffalo,0,0,1,0,1,0,1,groupe dense
+4 (294).jpg,zebra,6,8,4,2,-2,2,2,groupe dense
+4 (34).jpg,zebra,6,7,6,1,0,1,0,complément (dense)
+4 (75).jpg,zebra,8,11,8,3,0,3,0,groupe dense
+4 (90).jpg,zebra,2,2,2,0,0,0,0,partiellement cachés
