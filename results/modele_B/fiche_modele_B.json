@@ -1,0 +1,18 @@
+{
+  "modele": "yolov8n",
+  "seed": 42,
+  "imgsz": 512,
+  "epochs": 15,
+  "scale": 0.2,
+  "translate": 0.05,
+  "ultralytics": "8.4.216",
+  "duree_heures": 0.061,
+  "conf_predictions": 0.25,
+  "metriques_val": {
+    "metrics/precision(B)": 0.9273,
+    "metrics/recall(B)": 0.8743,
+    "metrics/mAP50(B)": 0.9403,
+    "metrics/mAP50-95(B)": 0.7709,
+    "fitness": 0.7709
+  }
+}
