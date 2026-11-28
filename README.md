@@ -16,6 +16,9 @@ Projet/
 │   ├── entrainement_A.ipynb                         # Étape 2 : modèle A (augmentations par défaut)
 │   ├── entrainement_B.ipynb                         # Étape 3 : modèle B (scale=0.2, translate=0.05)
 │   └── evaluation.ipynb                             # Étapes 4 à 6 : seuils, petits/grands objets, comptage
+├── src/                                             # scripts Python réutilisables
+├── datasets/                                        # African Wildlife (images + labels YOLO), non versionné
+├── runs/                                            # sorties d'entraînement Ultralytics (poids, courbes), non versionné
 ├── results/
 │   ├── annotations_all.csv                          # annotations + classe petit/grand
 │   ├── size_rule.json                               # règle petit/grand (seuil 0.227)
