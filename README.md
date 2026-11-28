@@ -7,6 +7,25 @@ Système de **détection et de comptage** de quatre espèces (buffle, éléphant
 
 > **Question scientifique :** une meilleure mAP garantit-elle un meilleur comptage ? → **Non** (voir [Conclusion](#conclusion)).
 
+## Structure du projet
+
+```
+Projet/
+├── notebooks/
+│   ├── African_Wildlife_Dataset_Exploration.ipynb   # Étape 1 : exploration du dataset
+│   ├── entrainement_A.ipynb                         # Étape 2 : modèle A (augmentations par défaut)
+│   ├── entrainement_B.ipynb                         # Étape 3 : modèle B (scale=0.2, translate=0.05)
+│   └── evaluation.ipynb                             # Étapes 4 à 6 : seuils, petits/grands objets, comptage
+├── results/
+│   ├── annotations_all.csv                          # annotations + classe petit/grand
+│   ├── size_rule.json                               # règle petit/grand (seuil 0.227)
+│   ├── 12_exemples_annotes.png                      # exemples annotés
+│   └── resultats_evaluation/                        # tableaux CSV, figures, seuils figés
+├── config.yaml                                      # configuration du projet
+├── .gitignore
+└── README.md
+```
+
 ---
 
 ## Contenu du dépôt
